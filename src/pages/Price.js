@@ -3,7 +3,7 @@ import {useParams} from "react-router-dom"
 
 export default function Price (props) {
   // Our api key from coinapi.io
-  const apiKey = "YOUR API KEY";
+  const apiKey = "D0F0E5D7-FA68-4AD0-9DD0-303E2B221D1D";
   // Grabbing the Currency symbol from the URL Params
   const params = useParams()
   const symbol = params.symbol
